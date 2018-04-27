@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211E3F0D20904DFE009CA57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E3F0C20904DFE009CA57E /* AppDelegate.swift */; };
-		211E3F0F20904DFE009CA57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E3F0E20904DFE009CA57E /* ViewController.swift */; };
-		211E3F1220904DFE009CA57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211E3F1020904DFE009CA57E /* Main.storyboard */; };
-		211E3F1420904E01009CA57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211E3F1320904E01009CA57E /* Assets.xcassets */; };
-		211E3F1720904E01009CA57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211E3F1520904E01009CA57E /* LaunchScreen.storyboard */; };
+		2125E18B2092E3130044A3B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E18A2092E3130044A3B6 /* AppDelegate.swift */; };
+		2125E18D2092E3130044A3B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E18C2092E3130044A3B6 /* ViewController.swift */; };
+		2125E1902092E3130044A3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2125E18E2092E3130044A3B6 /* Main.storyboard */; };
+		2125E1922092E31B0044A3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2125E1912092E31B0044A3B6 /* Assets.xcassets */; };
+		2125E1952092E31B0044A3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2125E1932092E31B0044A3B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		211E3F0920904DFE009CA57E /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		211E3F0C20904DFE009CA57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		211E3F0E20904DFE009CA57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		211E3F1120904DFE009CA57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		211E3F1320904E01009CA57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		211E3F1620904E01009CA57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		211E3F1820904E01009CA57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2125E1872092E3130044A3B6 /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2125E18A2092E3130044A3B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2125E18C2092E3130044A3B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2125E18F2092E3130044A3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2125E1912092E31B0044A3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2125E1942092E31B0044A3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2125E1962092E31B0044A3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		211E3F0620904DFE009CA57E /* Frameworks */ = {
+		2125E1842092E3130044A3B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		211E3F0020904DFE009CA57E = {
+		2125E17E2092E3130044A3B6 = {
 			isa = PBXGroup;
 			children = (
-				211E3F0B20904DFE009CA57E /* NewsReader */,
-				211E3F0A20904DFE009CA57E /* Products */,
+				2125E1892092E3130044A3B6 /* NewsReader */,
+				2125E1882092E3130044A3B6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		211E3F0A20904DFE009CA57E /* Products */ = {
+		2125E1882092E3130044A3B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				211E3F0920904DFE009CA57E /* NewsReader.app */,
+				2125E1872092E3130044A3B6 /* NewsReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		211E3F0B20904DFE009CA57E /* NewsReader */ = {
+		2125E1892092E3130044A3B6 /* NewsReader */ = {
 			isa = PBXGroup;
 			children = (
-				211E3F0C20904DFE009CA57E /* AppDelegate.swift */,
-				211E3F0E20904DFE009CA57E /* ViewController.swift */,
-				211E3F1020904DFE009CA57E /* Main.storyboard */,
-				211E3F1320904E01009CA57E /* Assets.xcassets */,
-				211E3F1520904E01009CA57E /* LaunchScreen.storyboard */,
-				211E3F1820904E01009CA57E /* Info.plist */,
+				2125E18A2092E3130044A3B6 /* AppDelegate.swift */,
+				2125E18C2092E3130044A3B6 /* ViewController.swift */,
+				2125E18E2092E3130044A3B6 /* Main.storyboard */,
+				2125E1912092E31B0044A3B6 /* Assets.xcassets */,
+				2125E1932092E31B0044A3B6 /* LaunchScreen.storyboard */,
+				2125E1962092E31B0044A3B6 /* Info.plist */,
 			);
 			path = NewsReader;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		211E3F0820904DFE009CA57E /* NewsReader */ = {
+		2125E1862092E3130044A3B6 /* NewsReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211E3F1B20904E01009CA57E /* Build configuration list for PBXNativeTarget "NewsReader" */;
+			buildConfigurationList = 2125E1992092E31B0044A3B6 /* Build configuration list for PBXNativeTarget "NewsReader" */;
 			buildPhases = (
-				211E3F0520904DFE009CA57E /* Sources */,
-				211E3F0620904DFE009CA57E /* Frameworks */,
-				211E3F0720904DFE009CA57E /* Resources */,
+				2125E1832092E3130044A3B6 /* Sources */,
+				2125E1842092E3130044A3B6 /* Frameworks */,
+				2125E1852092E3130044A3B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +81,25 @@
 			);
 			name = NewsReader;
 			productName = NewsReader;
-			productReference = 211E3F0920904DFE009CA57E /* NewsReader.app */;
+			productReference = 2125E1872092E3130044A3B6 /* NewsReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		211E3F0120904DFE009CA57E /* Project object */ = {
+		2125E17F2092E3130044A3B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = 151a.jp;
 				TargetAttributes = {
-					211E3F0820904DFE009CA57E = {
+					2125E1862092E3130044A3B6 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 211E3F0420904DFE009CA57E /* Build configuration list for PBXProject "NewsReader" */;
+			buildConfigurationList = 2125E1822092E3130044A3B6 /* Build configuration list for PBXProject "NewsReader" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 211E3F0020904DFE009CA57E;
-			productRefGroup = 211E3F0A20904DFE009CA57E /* Products */;
+			mainGroup = 2125E17E2092E3130044A3B6;
+			productRefGroup = 2125E1882092E3130044A3B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				211E3F0820904DFE009CA57E /* NewsReader */,
+				2125E1862092E3130044A3B6 /* NewsReader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		211E3F0720904DFE009CA57E /* Resources */ = {
+		2125E1852092E3130044A3B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211E3F1720904E01009CA57E /* LaunchScreen.storyboard in Resources */,
-				211E3F1420904E01009CA57E /* Assets.xcassets in Resources */,
-				211E3F1220904DFE009CA57E /* Main.storyboard in Resources */,
+				2125E1952092E31B0044A3B6 /* LaunchScreen.storyboard in Resources */,
+				2125E1922092E31B0044A3B6 /* Assets.xcassets in Resources */,
+				2125E1902092E3130044A3B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		211E3F0520904DFE009CA57E /* Sources */ = {
+		2125E1832092E3130044A3B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211E3F0F20904DFE009CA57E /* ViewController.swift in Sources */,
-				211E3F0D20904DFE009CA57E /* AppDelegate.swift in Sources */,
+				2125E18D2092E3130044A3B6 /* ViewController.swift in Sources */,
+				2125E18B2092E3130044A3B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		211E3F1020904DFE009CA57E /* Main.storyboard */ = {
+		2125E18E2092E3130044A3B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				211E3F1120904DFE009CA57E /* Base */,
+				2125E18F2092E3130044A3B6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		211E3F1520904E01009CA57E /* LaunchScreen.storyboard */ = {
+		2125E1932092E31B0044A3B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				211E3F1620904E01009CA57E /* Base */,
+				2125E1942092E31B0044A3B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		211E3F1920904E01009CA57E /* Debug */ = {
+		2125E1972092E31B0044A3B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		211E3F1A20904E01009CA57E /* Release */ = {
+		2125E1982092E31B0044A3B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +276,7 @@
 			};
 			name = Release;
 		};
-		211E3F1C20904E01009CA57E /* Debug */ = {
+		2125E19A2092E31B0044A3B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		211E3F1D20904E01009CA57E /* Release */ = {
+		2125E19B2092E31B0044A3B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		211E3F0420904DFE009CA57E /* Build configuration list for PBXProject "NewsReader" */ = {
+		2125E1822092E3130044A3B6 /* Build configuration list for PBXProject "NewsReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				211E3F1920904E01009CA57E /* Debug */,
-				211E3F1A20904E01009CA57E /* Release */,
+				2125E1972092E31B0044A3B6 /* Debug */,
+				2125E1982092E31B0044A3B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		211E3F1B20904E01009CA57E /* Build configuration list for PBXNativeTarget "NewsReader" */ = {
+		2125E1992092E31B0044A3B6 /* Build configuration list for PBXNativeTarget "NewsReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				211E3F1C20904E01009CA57E /* Debug */,
-				211E3F1D20904E01009CA57E /* Release */,
+				2125E19A2092E31B0044A3B6 /* Debug */,
+				2125E19B2092E31B0044A3B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 211E3F0120904DFE009CA57E /* Project object */;
+	rootObject = 2125E17F2092E3130044A3B6 /* Project object */;
 }
