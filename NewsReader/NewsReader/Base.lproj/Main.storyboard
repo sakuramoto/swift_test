@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lts-Rv-0xg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G6B-qp-geg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--List View Controller-->
+        <!--一覧-->
         <scene sceneID="crv-9I-N6j">
             <objects>
                 <tableViewController id="lts-Rv-0xg" customClass="ListViewController" customModule="NewsReader" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,6 +35,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="yul-kQ-Sqe" kind="show" id="8T1-DX-BJz"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -41,10 +45,56 @@
                             <outlet property="delegate" destination="lts-Rv-0xg" id="tUL-b7-F7c"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="一覧" id="mfL-wb-day"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zfh-Oz-mh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="103"/>
+            <point key="canvasLocation" x="1327.2" y="102.99850074962519"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="7ML-Sp-jR3">
+            <objects>
+                <viewController id="yul-kQ-Sqe" customClass="DetailViewController" customModule="NewsReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ujd-OD-Vpu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RMZ-en-zU6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RMZ-en-zU6" firstAttribute="top" secondItem="HA5-fw-pMj" secondAttribute="top" id="5C4-ez-Wcc"/>
+                            <constraint firstAttribute="trailing" secondItem="RMZ-en-zU6" secondAttribute="trailing" id="9jp-qe-Zg9"/>
+                            <constraint firstItem="RMZ-en-zU6" firstAttribute="leading" secondItem="Ujd-OD-Vpu" secondAttribute="leading" id="hU8-aw-ahH"/>
+                            <constraint firstItem="RMZ-en-zU6" firstAttribute="bottom" secondItem="HA5-fw-pMj" secondAttribute="bottom" id="u9S-l3-nWO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HA5-fw-pMj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9q-t0-1MG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2101.5999999999999" y="114.69265367316342"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="j6l-nn-rXF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G6B-qp-geg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9vu-OP-wvr">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lts-Rv-0xg" kind="relationship" relationship="rootViewController" id="syY-bA-7Nd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5J-I6-sW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="102.99850074962519"/>
         </scene>
     </scenes>
 </document>
