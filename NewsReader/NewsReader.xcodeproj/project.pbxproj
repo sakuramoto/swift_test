@@ -13,6 +13,7 @@
 		2125E1922092E31B0044A3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2125E1912092E31B0044A3B6 /* Assets.xcassets */; };
 		2125E1952092E31B0044A3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2125E1932092E31B0044A3B6 /* LaunchScreen.storyboard */; };
 		2125E19D2092E33C0044A3B6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E19C2092E33C0044A3B6 /* ListViewController.swift */; };
+		2125E19F2092EC340044A3B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E19E2092EC340044A3B6 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2125E1942092E31B0044A3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2125E1962092E31B0044A3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2125E19C2092E33C0044A3B6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2125E19E2092EC340044A3B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2125E18C2092E3130044A3B6 /* ViewController.swift */,
 				2125E19C2092E33C0044A3B6 /* ListViewController.swift */,
 				2125E18E2092E3130044A3B6 /* Main.storyboard */,
+				2125E19E2092EC340044A3B6 /* Item.swift */,
 				2125E1912092E31B0044A3B6 /* Assets.xcassets */,
 				2125E1932092E31B0044A3B6 /* LaunchScreen.storyboard */,
 				2125E1962092E31B0044A3B6 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2125E19F2092EC340044A3B6 /* Item.swift in Sources */,
 				2125E18D2092E3130044A3B6 /* ViewController.swift in Sources */,
 				2125E18B2092E3130044A3B6 /* AppDelegate.swift in Sources */,
 				2125E19D2092E33C0044A3B6 /* ListViewController.swift in Sources */,
