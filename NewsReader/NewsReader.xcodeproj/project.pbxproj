@@ -15,6 +15,7 @@
 		2125E19D2092E33C0044A3B6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E19C2092E33C0044A3B6 /* ListViewController.swift */; };
 		2125E19F2092EC340044A3B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E19E2092EC340044A3B6 /* Item.swift */; };
 		2125E1A12096A4920044A3B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E1A02096A4920044A3B6 /* DetailViewController.swift */; };
+		21FBB5FE20A0102700240CA4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FBB5FD20A0102700240CA4 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2125E19C2092E33C0044A3B6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2125E19E2092EC340044A3B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2125E1A02096A4920044A3B6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		21FBB5FD20A0102700240CA4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FBB5FE20A0102700240CA4 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +49,7 @@
 			children = (
 				2125E1892092E3130044A3B6 /* NewsReader */,
 				2125E1882092E3130044A3B6 /* Products */,
+				21FBB5FC20A0102700240CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +75,14 @@
 				2125E1962092E31B0044A3B6 /* Info.plist */,
 			);
 			path = NewsReader;
+			sourceTree = "<group>";
+		};
+		21FBB5FC20A0102700240CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FBB5FD20A0102700240CA4 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import WebKit
 
 class DetailViewController : UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var webKitView: WKWebView!
     
     var link:String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(self.link)
         if let url = URL(string: self.link) {
             let request = URLRequest(url: url)
-            self.webView.loadRequest(request)
+//            self.webView.loadRequest(request)
+            self.webKitView.load(request)
         }
     }
 }
