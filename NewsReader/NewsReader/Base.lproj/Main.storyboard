@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -73,6 +72,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HA5-fw-pMj"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="RMZ-en-zU6" id="iQV-BW-gdj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R9q-t0-1MG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
