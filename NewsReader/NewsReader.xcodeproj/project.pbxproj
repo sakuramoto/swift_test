@@ -16,6 +16,7 @@
 		2125E19F2092EC340044A3B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E19E2092EC340044A3B6 /* Item.swift */; };
 		2125E1A12096A4920044A3B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125E1A02096A4920044A3B6 /* DetailViewController.swift */; };
 		21FBB5FE20A0102700240CA4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FBB5FD20A0102700240CA4 /* WebKit.framework */; };
+		21FBB60320A17CA900240CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21FBB60120A17CA900240CA4 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,9 @@
 		2125E19E2092EC340044A3B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2125E1A02096A4920044A3B6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		21FBB5FD20A0102700240CA4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		21FBB5FF20A17B7B00240CA4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		21FBB60020A17B7B00240CA4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		21FBB60220A17CA900240CA4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 				2125E1912092E31B0044A3B6 /* Assets.xcassets */,
 				2125E1932092E31B0044A3B6 /* LaunchScreen.storyboard */,
 				2125E1962092E31B0044A3B6 /* Info.plist */,
+				21FBB60120A17CA900240CA4 /* InfoPlist.strings */,
 			);
 			path = NewsReader;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 2125E17E2092E3130044A3B6;
 			productRefGroup = 2125E1882092E3130044A3B6 /* Products */;
@@ -144,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2125E1952092E31B0044A3B6 /* LaunchScreen.storyboard in Resources */,
+				21FBB60320A17CA900240CA4 /* InfoPlist.strings in Resources */,
 				2125E1922092E31B0044A3B6 /* Assets.xcassets in Resources */,
 				2125E1902092E3130044A3B6 /* Main.storyboard in Resources */,
 			);
@@ -171,6 +178,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2125E18F2092E3130044A3B6 /* Base */,
+				21FBB5FF20A17B7B00240CA4 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -179,8 +187,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				2125E1942092E31B0044A3B6 /* Base */,
+				21FBB60020A17B7B00240CA4 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		21FBB60120A17CA900240CA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FBB60220A17CA900240CA4 /* ja */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -190,6 +207,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -250,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
